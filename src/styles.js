@@ -8,6 +8,11 @@ export const GlobalStyle = createGlobalStyle`
       font-family: 'Roboto', Helvetica, Sans-Serif;
     }
 
+    table{
+      padding: 0;
+      margin: 0;
+    }
+
   img{
     display: block;
     width: 100%;
