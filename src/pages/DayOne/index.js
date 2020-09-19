@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { Container } from '../../styles'
-import { Content, Button, Title } from './styles'
+import { GiHamburger } from 'react-icons/gi'
+import { Container, Title } from '../../styles'
+import { Content, Button } from './styles'
 
 function DayOne() {
 
@@ -48,7 +49,10 @@ function DayOne() {
                 <p>
                     Obtenha uma refeição aleatória clicando abaixo
                 </p>
-                <Button onClick={handleClick}>Clique ! 🍔</Button>
+                <Button onClick={handleClick}>
+                    Clique !
+                    <GiHamburger />
+                </Button>
             </Title>
 
 

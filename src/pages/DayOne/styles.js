@@ -11,9 +11,6 @@ export const Content = styled.aside`
    }
 `;
 
-export const Title = styled.div`
-    text-align: center;
-`;
 
 export const Button = styled.button`
     background: #00c1ff;

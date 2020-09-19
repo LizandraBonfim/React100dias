@@ -33,3 +33,7 @@ export const Container = styled.main`
   width: 60rem;
   margin: auto;
 `;
+
+export const Title = styled.div`
+    text-align: center;
+`;
