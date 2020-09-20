@@ -118,9 +118,6 @@ function DayTwo() {
         console.log("fui clicado", id);
         console.log('item', item);
 
-        const teste = cores[0][item];
-        teste.cor = 'blue';
-        cores[0][item] = teste;
 
 
 
